@@ -1,0 +1,54 @@
+.header {
+    text-align: center;
+}
+
+.header .hype {
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.section {
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.section.bordered {
+    border-top: 1px #CCC dashed;
+}
+.section.padded {
+    padding: 50px 0;
+}
+
+.profile-pic {
+    box-shadow: 0 0 30px #555;
+}
+
+.job {
+    font-size: 1.5em;
+    line-height: 2em;
+    text-align: center;
+}
+.job .title:after {
+    content: ',';
+}
+.job .workplace {
+    font-weight: 500;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+.project img {
+    opacity: 0.7;
+    transition: opacity 400ms;
+}
+.project:hover img {
+    opacity: 1;
+}
+.project {
+    text-align: center;
+}
+
+.project .description p {
+    line-height: 2em;
+}
